@@ -1,0 +1,32 @@
+[
+  {
+    "scenarioId": "TC_001",
+    "description": "Standard User Path",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "firstName": "Alex",
+    "lastName": "Tester",
+    "zipCode": "10001",
+    "shouldSucceed": true
+  },
+  {
+    "scenarioId": "TC_002",
+    "description": "Locked Out User Path",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "firstName": "",
+    "lastName": "",
+    "zipCode": "",
+    "shouldSucceed": false
+  },
+  {
+    "scenarioId": "TC_003",
+    "description": "Problem User Path",
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "firstName": "Sam",
+    "lastName": "Problematic",
+    "zipCode": "90210",
+    "shouldSucceed": true
+  }
+]

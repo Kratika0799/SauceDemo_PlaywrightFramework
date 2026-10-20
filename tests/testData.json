@@ -1,0 +1,4 @@
+[
+  { "username": "standard_user", "password": "secret_sauce", "desc": "Valid Standard Flow" },
+  { "username": "problem_user", "password": "secret_sauce", "desc": "Problem User Flow" }
+]

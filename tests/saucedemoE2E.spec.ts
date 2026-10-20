@@ -9,7 +9,7 @@ const loginPage=new LoginPage(page);
 const inventoryPage= new InventoryPage(page);
 const checkoutPage=new CheckoutPage(page);
 
-await test.step('Given user is on SWag Lab Login page',async()=>{
+await test.step('Given user is on Swag Lab Login page',async()=>{
 
     await loginPage.navigate();
 });
